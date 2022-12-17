@@ -2,7 +2,7 @@ import MainLayout from "../../layouts/MainLayout";
 import { Grid, Card, Button, Box } from "@mui/material";
 import { useRouter } from "next/router";
 import { ITrack } from "../../types/track";
-import TrackList from "../../components/TrackList.tsx/TrackList";
+import TrackList from "../../components/TrackList/TrackList";
 
 const Tracks = () => {
   const router = useRouter();
